@@ -29,7 +29,7 @@ Las tecnologías usadas son:
 - Mediapipe Hands
 
 
-Todo lo hecho en este repositorio fue con la ayuda de  [public repository][repoEnglish]
+Todo lo hecho en este repositorio fue con la ayuda de: https://github.com/kinivi/hand-gesture-recognition-mediapipe.git 
  on GitHub.
 
 ## Installation
@@ -45,8 +45,4 @@ pip install cv2
 pip install mediapipe
 ```
 
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [repoEnglish]: <[https://github.com/joemccann/dillinger](https://github.com/kinivi/hand-gesture-recognition-mediapipe.git)>
 

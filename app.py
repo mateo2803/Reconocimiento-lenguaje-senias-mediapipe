@@ -61,7 +61,7 @@ def main():
     mp_hands = mp.solutions.hands
     hands = mp_hands.Hands(
         static_image_mode=use_static_image_mode,
-        max_num_hands=4,
+        max_num_hands=2,
         min_detection_confidence=min_detection_confidence,
         min_tracking_confidence=min_tracking_confidence,
     )
@@ -74,9 +74,6 @@ def main():
     with open('model/keypoint_classifier/keypoint_classifier_label.csv',
               encoding='utf-8-sig') as f:
         keypoint_classifier_labels = csv.reader(f)
-        # Only read the first 11 rows.
-        for i in range(11):
-            next(keypoint_classifier_labels)
         keypoint_classifier_labels = [
             row[0] for row in keypoint_classifier_labels
         ]
